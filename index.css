@@ -1,0 +1,52 @@
+body{
+
+min-height: 100vh;
+background-image: url("./download.jpg");
+
+}
+.Container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+
+}
+
+.Container-items{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(242, 235, 235);
+    background-color: white;
+ 
+
+}
+.Search-bar{
+padding-left: 10px;
+padding-right: 10px;
+display:flex ;
+gap: 10px;
+min-height: 400px;
+flex-direction: column;
+}
+
+.input-box{
+    border: 2px solid rgb(93, 157, 213);
+    border-radius: 10px ;
+    width: 90%;
+    height: 20px;
+}
+.add-button{
+ background-color: rgb(198, 179, 101);
+ height: 20px;
+}
+
+li {
+    /* Example styling */
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    list-style-type: disc;
+}
